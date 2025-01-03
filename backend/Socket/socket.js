@@ -7,7 +7,7 @@ const app = express();
 const server = http.createServer(app);
 const io = new Server(server,{
     cors:{
-        origin:['https://slrtech-chatapp.onrender.com'],
+        origin:['https://kttchatapp5.onrender.com/login'],
         methods:["GET","POST"]
     }
 });
